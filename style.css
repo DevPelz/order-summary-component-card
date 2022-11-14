@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-image: url(images/pattern-background-desktop.svg);
+    background-size: contain;
+    background-repeat: no-repeat ;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-family: 'Red Hat Display', sans-serif ;
+    padding-top: 8rem;
+    background-color: hsl(225, 100%, 94%);
+}
+
+img{
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+}
+
+.main{
+    background-color: white;
+    width: 28.2rem;
+    border-radius: 2rem;
+
+}
+.content{
+    padding: 3rem;
+}
+p{
+    font-size: 16px;
+    color:  hsl(224, 23%, 55%);
+    font-weight: 600;
+}
+h1{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-bottom: 1rem;
+    color: hsl(223, 47%, 23%);
+}
+#summary{
+    margin-left: 2rem;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+
+.plan{
+    background-color:  hsl(225, 100%, 98%);
+    display: flex;
+    align-items: center;
+    padding: 2rem;
+    border-radius: 1rem;
+    margin-bottom: 2rem; 
+}
+
+span{
+    margin-right: 2rem;
+    margin-left: 1.5rem;
+    font-size: 16px;
+}
+
+#year{
+    font-size: 20px;
+    color: hsl(223, 47%, 23%);
+    font-weight: 700;
+}
+.btn{
+  background-color: hsl(245, 75%, 52%);
+  padding: 1rem;
+  border-radius: 1rem;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  box-shadow: 5px 15px 28px  hsl(239, 72%, 79%);
+  margin-bottom: 2rem;
+}
+
+.btn a{
+    color: white;
+    text-decoration: none;
+}
+
+#order{
+    display: flex;
+    justify-content: center;
+}
+.btn:hover{
+    background-color: rgb(121, 76, 247);
+}
+
